@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles/tailwind.css'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="App-link bg-white rounded mt-2 px-2"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
