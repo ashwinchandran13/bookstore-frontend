@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^9.8.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -18,7 +19,7 @@
     "eject": "react-scripts eject",
     "css": "postcss ./src/styles/tailwind.css -o ./src/styles/tailwind.generated.css",
     "prestart": "npm run css",
-    "prebuild": "npm run css"
+    "prebuild": "cross-env NODE_ENV=production npm run css"
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
+    "cross-env": "^7.0.3",
     "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.0"
