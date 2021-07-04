@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Footer from './Layout/Footer.component'
+import Header from './Layout/Header.component'
+import './App.css'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import LoginPage from './Pages/Login/Login.page';
+import RegisterPage from './Pages/Register/Register.page';
+import UserVerificationPage from './Pages/UserVerification/UserVerification.page';
+import DashboardPage from './Pages/Dashboard/Dashboard';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header bg-primary text-secondary">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="pt-3">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="text-accent bg-secondary rounded mt-2 px-2"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <div className="default-layout">
+          <header className="header mb-2">
+            <Header />
+          </header>
+          <main>
+            <Switch>
+              <Route exact path="/" component={LoginPage} />
+              <Route exact path="/registration" component={RegisterPage} />
+              <Route exact path="/verify/:_id/:email" component={UserVerificationPage}/>
+              <Route exact path="/dashboard" component={DashboardPage}>
+
+					</Route>
+            </Switch>
+          </main>
+          <footer className="footer">
+            <Footer />
+          </footer>
+        </div>
+      </Router>
   );
 }
 
