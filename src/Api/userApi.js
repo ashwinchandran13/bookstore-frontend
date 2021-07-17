@@ -1,4 +1,5 @@
 import axios from 'axios';
+// import { toast } from 'react-toastify';
 
 const rootUrl = 'http://localhost:4000/api/user'
 const userProfileUrl = rootUrl + '/register'
@@ -7,6 +8,7 @@ const userLoginUrl=rootUrl+'/login'
 
 export const userRegistration = async (frmData) => {
   const res = await axios.post(userProfileUrl, frmData)
+  console.log(res);
   return res;
 }
 
