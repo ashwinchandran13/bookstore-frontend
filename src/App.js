@@ -7,7 +7,7 @@ import LoginPage from './Pages/Login/Login.page';
 import RegisterPage from './Pages/Register/Register.page';
 import UserVerificationPage from './Pages/UserVerification/UserVerification.page';
 import DashboardPage from './Pages/Dashboard/Dashboard';
-
+import Toast from './Components/toast/toast';
 
 
 const App = () => {
@@ -16,6 +16,7 @@ const App = () => {
         <div className="default-layout">
           <header className="header mb-2">
             <Header />
+            <Toast />
           </header>
           <main>
             <Switch>
