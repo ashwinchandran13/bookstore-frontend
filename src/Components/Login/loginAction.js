@@ -7,7 +7,6 @@ export const loginAction = (frmData) => async (dispatch) => {
     dispatch(loginPending())
     const result = await userLogin(frmData);
     const { error } = result;
-    console.log(error);
     if(error) {
       toast.error(error);
     } else {
