@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import LoginPage from './Pages/Login/Login.page';
 import RegisterPage from './Pages/Register/Register.page';
 import UserVerificationPage from './Pages/UserVerification/UserVerification.page';
-import DashboardPage from './Pages/Dashboard/Dashboard';
+import ProfilePage from './Pages/Profile/Profile.page';
 import Toast from './Components/toast/toast';
 
 
@@ -23,7 +23,7 @@ const App = () => {
               <Route exact path="/" component={LoginPage} />
               <Route exact path="/registration" component={RegisterPage} />
               <Route exact path="/verify/:_id/:email" component={UserVerificationPage}/>
-              <Route exact path="/dashboard" component={DashboardPage}>
+              <Route exact path="/profile" component={ProfilePage}>
 
 					</Route>
             </Switch>
