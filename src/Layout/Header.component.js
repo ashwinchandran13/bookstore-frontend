@@ -28,6 +28,7 @@ const Header = () => {
                 <NavLink exact activeClassName="active" to="/registration"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Signup</NavLink>
 
                 <NavLink exact activeClassName="active" to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</NavLink>
+                <NavLink exact activeClassName="active" to="/profile" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Profile</NavLink>
               </div>
             </div>
           </div>
