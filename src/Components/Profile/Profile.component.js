@@ -13,10 +13,15 @@ const ProfileComponent = () => {
 
     return (
         <div className="flex py-4 px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col bg-gray-800 p-8 rounded-xl w-3/12 ">
-                <img className="w-60 mx-auto mb-2" src="/svgs/profile.png" alt="dummy pic" />
-                <div className="text-white text-2xl text-center">Ashwin Chandran</div>
-                <div className="text-gray-500 text-lg text-center">@ashwinchandran13</div>
+            <div className="flex flex-col w-3/12">
+                <div className="bg-gray-800 p-8 rounded-xl">
+                    <img className="w-60 mx-auto mb-2" src="/svgs/profile.png" alt="dummy pic" />
+                    <div className="text-white text-2xl text-center">Ashwin Chandran</div>
+                    <div className="text-gray-500 text-lg text-center">@ashwinchandran13</div>
+                </div>
+                <div className="bg-gray-800 p-8 rounded-xl mt-5">
+                    <div className="text-white text-2xl text-center">Stats</div>
+                </div>
             </div>
             <div className="flex flex-col w-full mx-3.5">
                 <div className="text-white text-3xl text-left bg-gray-800 rounded-xl p-3 mb-4">Basic Information</div>
@@ -44,6 +49,53 @@ const ProfileComponent = () => {
                         </svg>
                         <input className="focus:border-red-600 focus:ring-1 focus:ring-light-blue-500 focus:outline-none w-full text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-10" type="text" aria-label="Filter projects" placeholder="Filter reviews" />
                     </form>
+                    <ul className="grid grid-cols-1 gap-4 m-5">
+                        <li className="hover:shadow-lg">
+                            <a href="#" className="bg-white hover:bg-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg border border-gray-200 p-4">
+                                <div className="flex mb-1">
+                                    <span className="flex-auto group-hover:text-gray-300 text-xs font-medium">Book Name</span>
+                                    <span className="group-hover:text-gray-300 text-xs font-medium">26 January 2020</span>
+                                </div>
+                                <div className="group-hover:text-white">book review comes here lol</div>
+                            </a>
+                        </li>
+                        <li className="hover:shadow-lg">
+                            <a href="#" className="bg-white hover:bg-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg border border-gray-200 p-4">
+                                <div className="flex mb-1">
+                                    <span className="flex-auto group-hover:text-gray-300 text-xs font-medium">Book Name</span>
+                                    <span className="group-hover:text-gray-300 text-xs font-medium">26 January 2020</span>
+                                </div>
+                                <div className="group-hover:text-white">book review comes here lol</div>
+                            </a>
+                        </li>
+                        <li className="hover:shadow-lg">
+                            <a href="#" className="bg-white hover:bg-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg border border-gray-200 p-4">
+                                <div className="flex mb-1">
+                                    <span className="flex-auto group-hover:text-gray-300 text-xs font-medium">Book Name</span>
+                                    <span className="group-hover:text-gray-300 text-xs font-medium">26 January 2020</span>
+                                </div>
+                                <div className="group-hover:text-white">book review comes here lol</div>
+                            </a>
+                        </li>
+                        <li className="hover:shadow-lg">
+                            <a href="#" className="bg-white hover:bg-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg border border-gray-200 p-4">
+                                <div className="flex mb-1">
+                                    <span className="flex-auto group-hover:text-gray-300 text-xs font-medium">Book Name</span>
+                                    <span className="group-hover:text-gray-300 text-xs font-medium">26 January 2020</span>
+                                </div>
+                                <div className="group-hover:text-white">book review comes here lol</div>
+                            </a>
+                        </li>
+                        <li className="hover:shadow-lg">
+                            <a href="#" className="bg-white hover:bg-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg border border-gray-200 p-4">
+                                <div className="flex mb-1">
+                                    <span className="flex-auto group-hover:text-gray-300 text-xs font-medium">Book Name</span>
+                                    <span className="group-hover:text-gray-300 text-xs font-medium">26 January 2020</span>
+                                </div>
+                                <div className="group-hover:text-white">book review comes here lol</div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div> 
