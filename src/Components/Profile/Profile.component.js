@@ -19,29 +19,41 @@ const ProfileComponent = () => {
                     <div className="text-white text-2xl text-center">Ashwin Chandran</div>
                     <div className="text-gray-500 text-lg text-center">@ashwinchandran13</div>
                 </div>
-                <div className="bg-gray-800 p-8 rounded-xl mt-5">
-                    <div className="text-white text-2xl text-center">Stats</div>
+                <div className="bg-gray-800 p-8 rounded-xl text-white text-2xl mt-2">Stats</div>
+                <div className="flex bg-gray-800 p-8 rounded-xl mt-2 h-full">
+                    <div className="flex flex-col w-full">
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-blue-500">Reputes⚡</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-blue-500">Giver☘️</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-blue-500">Class✴️</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-blue-500">Reviews✏️</div>
+                    </div>
+                    <div className="flex flex-col w-full">
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-red-500">24</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-red-500">3</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-red-500">🍏</div>
+                        <div className="text-white text-lg text-center bg-gray-700 rounded-xl p-2 m-2 hover:bg-red-500">8</div>
+                    </div>
                 </div>
             </div>
             <div className="flex flex-col w-full mx-3.5">
-                <div className="text-white text-3xl text-left bg-gray-800 rounded-xl p-3 mb-4">Basic Information</div>
+                <div className="text-white text-3xl text-left bg-gray-800 rounded-xl p-3 mb-2">Basic Information</div>
                 <div className="flex bg-gray-800 rounded-xl h-full">
                     <div className="flex flex-col m-5 w-full">
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">Name</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">Username</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">E-mail</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">Bio</div>
+                        <div className="text-white text-left text-xl p-3 mb-3 border-dashed border-2 border-opacity-50 hover:bg-red-500 hover:border-transparent rounded-xl">Name</div>
+                        <div className="text-white text-left text-xl p-3 mb-3 border-dashed border-2 border-opacity-50 hover:bg-red-500 hover:border-transparent rounded-xl">Username</div>
+                        <div className="text-white text-left text-xl p-3 mb-3 border-dashed border-2 border-opacity-50 hover:bg-red-500 hover:border-transparent rounded-xl">E-mail</div>
+                        <div className="text-white text-left text-xl p-3 mb-3 border-dashed border-2 border-opacity-50 hover:bg-red-500 hover:border-transparent rounded-xl">Bio</div>
                     </div>
                     <div className="flex flex-col m-5 w-full">
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">Ashwin Chandran</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">ashwinchandran13</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">ashwinchandran13@gmail.com</div>
-                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 rounded-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aspernatur error est natus non inventore necessitatibus quia repellendus itaque quisquam. Incidunt in eveniet iusto ad enim officia assumenda tempora ut nostrum soluta iste laborum, aperiam harum nam! Amet eligendi praesentium expedita, vitae at, dolorem aperiam quam tempora inventore, facere rem saepe debitis! Temporibus laudantium quo quia, nisi, velit maiores perspiciatis voluptates nesciunt non eaque assumenda magnam tempora officiis impedit harum, sunt enim rem autem repudiandae expedita praesentium quam. Ipsa eos deserunt provident reprehenderit minima voluptatibus molestiae dolorem eius itaque reiciendis ratione placeat aspernatur obcaecati, porro omnis sed optio tenetur rerum.</div>
+                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 border-transparent border-2 rounded-xl">Ashwin Chandran</div>
+                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 border-transparent border-2 rounded-xl">ashwinchandran13</div>
+                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 border-transparent border-2 rounded-xl">ashwinchandran13@gmail.com</div>
+                        <div className="bg-blue-500 text-white text-left text-xl p-3 mb-3 border-transparent border-2 rounded-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aspernatur error est natus non inventore necessitatibus quia repellendus itaque quisquam. Incidunt in eveniet iusto ad enim officia assumenda tempora ut nostrum soluta iste laborum, aperiam harum nam! Amet eligendi praesentium expedita, vitae at, dolorem aperiam quam tempora inventore, facere rem saepe debitis! Temporibus laudantium quo quia, nisi, velit maiores perspiciatis voluptates nesciunt non eaque assumenda magnam tempora officiis impedit harum, sunt enim rem autem repudiandae expedita praesentium quam. Ipsa eos deserunt provident reprehenderit minima voluptatibus molestiae dolorem eius itaque reiciendis ratione placeat aspernatur obcaecati, porro omnis sed optio tenetur rerum.</div>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col w-4/12 mx-3.5">
-                <div className="text-white text-3xl text-left bg-gray-800 rounded-xl p-3 mb-4">Recent Reviews</div>
+            <div className="flex flex-col w-4/12">
+                <div className="text-white text-3xl text-left bg-gray-800 rounded-xl p-3 mb-2">Recent Reviews</div>
                 <div className="flex flex-col bg-gray-800 rounded-xl h-full">
                     <form className="relative m-5">
                         <svg width="20" height="20" fill="currentColor" className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
